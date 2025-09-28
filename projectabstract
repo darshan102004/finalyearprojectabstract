@@ -1,7 +1,12 @@
 Abstract
 
-Music is an integral part of human life, influencing emotions, creativity, and learning. With the increasing demand for personalized digital experiences, there is a growing need for intelligent systems capable of generating music tailored to individual preferences. Traditional automatic music generation techniques often produce generic outputs and lack the ability to align with a user’s unique taste or respond to informal textual descriptions.
+Music is an integral part of human life, influencing emotions, creativity, and learning. With the increasing demand for personalized digital experiences, 
+there is a growing need for intelligent systems capable of generating music tailored to individual preferences. 
+Traditional automatic music generation techniques often produce generic outputs and lack the ability to align with a user’s unique taste or respond to informal textual descriptions.
 
-This project introduces a graph-based music generation system that integrates user music preferences (UMP) and natural language queries to produce personalized symbolic music. The system leverages graph-learning techniques to model user-song interactions and extract preference patterns, while textual queries are processed into music-relevant features using advanced embedding models. By combining these two components, the system generates MIDI sequences that are later converted into MP3 format for a user-friendly experience.
+This project introduces a graph-based music generation system that integrates user music preferences (UMP) and natural language queries to produce personalized 
+symbolic music. The system leverages graph-learning techniques to model user-song interactions and extract preference patterns, while textual queries are processed 
+into music-relevant features using advanced embedding models. By combining these two components, the system generates MIDI sequences that are later converted into MP3 format for a user-friendly experience.
 
-A dynamic feedback loop is incorporated to continuously refine the UMP model based on user interactions, ensuring evolving personalization over time. The proposed system has wide applications in music therapy, personalized playlists, and education, providing non-musicians with an accessible platform to create meaningful and customized music compositions.
+A dynamic feedback loop is incorporated to continuously refine the UMP model based on user interactions, ensuring evolving personalization over time. 
+The proposed system has wide applications in music therapy, personalized playlists, and education, providing non-musicians with an accessible platform to create meaningful and customized music compositions.
